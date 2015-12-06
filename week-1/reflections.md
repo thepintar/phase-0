@@ -37,3 +37,17 @@ rmdir: remove directory- deletes directory
 rm: remove a file
 
 help: its help.
+
+#1.4 Forking and Cloning
+
+If I were to write out instructions for a new user to create a new repository, fork a repository and clone a repository, I would do so in such a way:
+
+In order to create a new repository in GitHub, first navigate to your user page and then locate the plus sign in the top-right corner. Click this plus sign and select "Create New Repository" to create a new repository and complete the process by naming it and adjusting the parameters if necessary. Finish by clicking "Create Repository". Ta-da!
+
+In order to fork an existing repository, first navigate to the desired repository. Again, look to the top-right corner and locate the "Fork" button. Click this button. An exact copy of the repository will be placed into your profile.
+
+To clone a repository, navigate to it. Now locate the clone url, in this case you should find it near the top. Look for the only url there. Its next to a button labeled "HTTPS" (which can change the format of the URL). Copy this URL. Next, in your command-line shell, type the command "git clone " followed by pasting the URL you just copied. Hit enter. Voila!
+
+You would fork a repository so as to create an exact copy to work with that would not affect the original in any way. Maybe you want to play around with someone else's code but not mess with their repository.
+
+I didn't have any struggles in setting up git and GitHub, but I learned a lot about what they're used for and how to use them!
