@@ -1,4 +1,4 @@
-![Alt text](/imgs/site-map.png)
+![Alt text](/week-2/imgs/site-map.png)
 
 ##What are the 6 Phases of Web Design?
 The six phases of Web Design are Information Gathering, Planning, Design, Development, Testing and Delivery, and Maintenance. Information gathering consists of considering the purpose of the site, goals therein, who the target audience is and what the content will be. Planning is all about creating a site map and considering whether or not to use a content management system such as Wordpress or not. The design phase is pretty self explanatory, no? Well I'll explain it to you. You either design the graphical look of the site yourself or pass it off to a dedicated designer, who should return an image file of the final design concept to you. Development is all about creating the code behind the design. You develop the home page first, and a shell for interior pages. Testing and Delivery is when you test the flow of the site and work out any bugs. Then you deliver it! Maintenance is just what it sounds like: actively maintain the site forever. And ever. Depending on contractual obligations etc. Don't sign an eternity contract I guess.
