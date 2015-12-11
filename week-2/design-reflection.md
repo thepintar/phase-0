@@ -1,0 +1,22 @@
+![Alt text](/imgs/site-map.png)
+
+##What are the 6 Phases of Web Design?
+The six phases of Web Design are Information Gathering, Planning, Design, Development, Testing and Delivery, and Maintenance. Information gathering consists of considering the purpose of the site, goals therein, who the target audience is and what the content will be. Planning is all about creating a site map and considering whether or not to use a content management system such as Wordpress or not. The design phase is pretty self explanatory, no? Well I'll explain it to you. You either design the graphical look of the site yourself or pass it off to a dedicated designer, who should return an image file of the final design concept to you. Development is all about creating the code behind the design. You develop the home page first, and a shell for interior pages. Testing and Delivery is when you test the flow of the site and work out any bugs. Then you deliver it! Maintenance is just what it sounds like: actively maintain the site forever. And ever. Depending on contractual obligations etc. Don't sign an eternity contract I guess.
+
+##What is your site's primary goal or purpose? What kind of content will your site feature?
+My site's primary goal will be to illustrate my personality in web-page form. I think its important to feature all pertinent information about me, but I keep everything a little tongue-in-cheek. Therefore, I will dedicate a section of the site to both cheeses and owls. I'm no ornithologist, but I feel like owls don't get a fair shake these days. When I was a kid, there was a wise owl in everything. I guess you had that Gahool movie a few years back. Well anyway...I might be wrong, but I'm pretty sure there's some important owl-related stuff I can put on my site. I'll also include video projects from my ten years in media and other professional information to balance out the more fun sections. Also I'm lactose intolerant.
+
+##What is your target audience's interests and how do you see your site addressing them?
+My target audience will likely be my Mom, anyone who is required to peer-review my site, and eventually potential employers. My main concern long-term will be the third group, but as I stated earlier I want my personality to shine through. I have a linkedIn for a dry web-based estimation of my accomplishments, and so I see this as a fun introduction to who I am and what an employer could expect. It should be informative yet entertaining because I think employers want to hire creative and fun people who are also accomplished and hard working.
+
+##What is the primary "action" the user should take when coming to your site? Do you want them to search for information, contact you, or see your portfolio? It's ok to have several actions at once, or different actions for different kinds of visitors.
+I want the user to primarily learn about me through non-traditional methods.
+
+##What are the main things someone should know about design and user experience?
+The main thing to know about design is that everything is subjective, but that doesn't mean that anything goes. There are good designs and bad designs, and its important to design knowing your audience. Thats where UX really comes into play. You could have a beautiful design to your site, but if the design doesn't facilitate use of the site then it's crap design. The two concepts need to work hand in hand for an ideal result.
+
+##What is user experience design and why is it valuable? 
+User experience design is design that takes into account what the user wants and needs when browsing the site. Proper UXD provides exactly what the user wants in intuitive ways. Its like having an invisible web nanny that leads the user through pertinent areas in the site. Except instead of some elder british woman with a magical umbrella helping the user out, the very design itself leads them where they need to go. Everything in its proper place, and looking spiffing.
+
+##Which parts of the challenge did you find tedious?
+Tedious? This challenge? I mean there really wasn't that much to do. It's fun to create, to think about what could be. Isn't it supposed to be the actual coding that's tedious? Maybe not even that. The tedious part is probably combing through code to find the missing bracket that's ruining everything. This challenge was fun.
