@@ -1,3 +1,32 @@
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It's important to know which directory the file (like a stylesheet) is in, so you link to it properly.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+I found that if I drew a border around the element I was trying to position, it made it easier for me to visualize how it was
+currently being positioned on the page and how I should proceed. This was a HUGE help.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We used color, font-style, font-size, font-weight, background-color and text-align.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? 
+If you didn't, how would you know which one to add to your HTML?
+
+Oh god yes. We used oodles of CSS, as I thought was the point of this challenge? We used mostly ids, as there were several
+one-time adjustments that needed to be made. We started with classes, but found that with the cascading priorities that CSS
+has, the classes were being over-ruled by inline CSS. There are probably great methods for refactoring the code into Classes
+but I'll save that for next challenge! This one proved to be a whopper.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+The original site has fairly clean code, but its very basic and outdated. I believe our code follows best-practices better
+because it utilizes the more modern CSS to accomplish the same look. It would be much easier to update the site using our
+code than it would be to go through and adjust what they have. Also, our code ought to be compatible on more devices.
+
+*/
+
 * {
   color:#000080;
   background-color: white;
