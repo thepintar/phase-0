@@ -1,0 +1,117 @@
+* {
+  color:#000080;
+  background-color: white;
+ }
+a:link {
+  color:#800080;
+}
+a:visited {
+    color: #FF0000;
+}
+/*Left column of links, float as inline block, 40% width of window, with space to the left to push it inward*/
+#left-column{
+  margin-left:50px;
+  float:left;
+    display:inline-block;
+    width:40%;
+}
+/*right column of links float on the right side, 40% size of window, with space to the right to push it inwards*/
+#right-column{
+  margin-right:50px;
+  float:right;
+    display:inline-block;
+    width:40%;
+}
+/*give space below each list item to format it closer to original site*/
+li{
+  margin-bottom:40px;
+}
+/*make each list item update smaller and position it just below the item it refers to*/
+li p{
+  font-size:10px;
+  margin-top:5px;
+  margin-bottom:-20px;
+}
+/*make sure the footer goes below the two floating blocks*/
+footer{
+  clear:both;
+}
+/*center the header with text size 20px*/
+header {
+  margin:auto;
+  font-weight: bold;
+  font-size: 20px; 
+  text-align: center;
+}
+/*Make the two big letters big, and display them as inline blocks so they don't default to the next line*/
+header div {
+  font-size: 35px;
+  display:inline-block;
+  }
+/*Formats the small "inc" in the main header line*/
+ header span {
+    font-size:14px;
+    margin-top:-30px;
+    display:inline-block;
+  }
+    /*sloppy but effective line breaks*/
+  #line-break{
+    margin:auto;
+    width:100%;
+    border:1px solid gray;
+  }
+   /*Formats the text in the two lines below the top heading*/
+  #heading-line-2{
+    margin:0px;
+    padding:0px;
+    font-size:15px;
+    display:block;
+  }
+  /*Formats the final line of heading text*/
+   #heading-line-4{
+    margin-bottom:5px;
+    padding:0px;
+    font-size:20px;
+    font-weight:800;
+    display:block;
+  }
+
+  /*centers the footer text*/
+  footer {
+     text-align: center;
+  }
+
+
+  /*formats text about the WEB page itself*/
+  footer span{
+    font-size:13px;
+    margin-top:15px;
+    margin-bottom:15px;
+    display:block;
+    text-align:left;
+  }
+  /*formats bold portion of copyright*/
+  footer span span{
+    font-weight:bold;
+    display:inline-block;
+  }
+
+  /*centers the geico img*/
+footer nav{
+  display:inline-block;
+  margin:15px 0px 0px -5px;
+}
+/*formats geico ad text*/
+  #geico-ad{
+    font-size:10px;
+    margin:0px;   
+  }
+
+  /*aligns bottom text to left*/
+  #final-text{
+    text-align:left;
+    position:inline-block;
+    margin-top:15px
+
+  }
+
