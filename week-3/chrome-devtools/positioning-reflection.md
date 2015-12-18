@@ -8,7 +8,7 @@
 ![Alt text](/week-3/chrome-devtools/imgs/6_footer.png)
 ![Alt text](/week-3/chrome-devtools/imgs/7_header.png)
 ![Alt text](/week-3/chrome-devtools/imgs/8_sidebar.png)
-![Alt text](/week-3/chrome-devtools/imgs/19_creative_uncreative.png)
+![Alt text](/week-3/chrome-devtools/imgs/9_creative_uncreative.png)
 
 ##How can you use Chrome's DevTools inspector to help you format or position elements?
 
