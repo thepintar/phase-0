@@ -1,14 +1,14 @@
 
 #Challenge Images
-![Alt text](/imgs/1_change_colors.png)
-![Alt text](/imgs/2_column.png)
-![Alt text](/imgs/3_row.png)
-![Alt text](/imgs/4_equidistant.png)
-![Alt text](/imgs/5_squares.png)
-![Alt text](/imgs/6_footer.png)
-![Alt text](/imgs/7_header.png)
-![Alt text](/imgs/8_sidebar.png)
-![Alt text](/imgs/19_creative_uncreative.png)
+![Alt text](/week-3/chrome-devtools/imgs/1_change_colors.png)
+![Alt text](/week-3/chrome-devtools/imgs/2_column.png)
+![Alt text](/week-3/chrome-devtools/imgs/3_row.png)
+![Alt text](/week-3/chrome-devtools/imgs/4_equidistant.png)
+![Alt text](/week-3/chrome-devtools/imgs/5_squares.png)
+![Alt text](/week-3/chrome-devtools/imgs/6_footer.png)
+![Alt text](/week-3/chrome-devtools/imgs/7_header.png)
+![Alt text](/week-3/chrome-devtools/imgs/8_sidebar.png)
+![Alt text](/week-3/chrome-devtools/imgs/19_creative_uncreative.png)
 
 ##How can you use Chrome's DevTools inspector to help you format or position elements?
 
