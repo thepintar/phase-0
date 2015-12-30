@@ -43,6 +43,6 @@ A local variable is a variable that one defines within a program. It is any vari
 This challenge was almost all extremely simple. The only curve ball was asking us to use .reverse and .upcase, which were only curve balls since the rest was nearly brainless. I do understand the usefulness of returning to basics though, and I have to trust that this will be necessary for some other challenge to come.
 
 #Exercises from Release 5
-(https://github.com/thepintar/phase-0/blob/master/week-4/defining-variables.rb)[Defining Variables]
-(https://github.com/thepintar/phase-0/blob/master/week-4/simple-string.rb)[Simple String Methods]
-(https://github.com/thepintar/phase-0/blob/master/week-4/basic-math.rb)[Local Variables and Basic Arithmetical Operations]
+[https://github.com/thepintar/phase-0/blob/master/week-4/defining-variables.rb](Defining Variables)
+[https://github.com/thepintar/phase-0/blob/master/week-4/simple-string.rb](Simple String Methods)
+[https://github.com/thepintar/phase-0/blob/master/week-4/basic-math.rb](Local Variables and Basic Arithmetical Operations)
