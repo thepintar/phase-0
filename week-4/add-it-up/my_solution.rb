@@ -22,6 +22,7 @@ Return the sum.
 =end
 
 # 1. total initial solution
+=begin
 def total(array)
 	sum = 0
 	array.each do |x|
@@ -29,11 +30,13 @@ def total(array)
 	end
 	return sum
 end
-
+=end
 
 # 3. total refactored solution
 
-#Same Solution.
+def total(array)
+	array.reduce(:+)
+end
 
 
 # 4. sentence_maker pseudocode
