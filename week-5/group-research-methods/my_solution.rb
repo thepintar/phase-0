@@ -83,13 +83,11 @@ end
 =end
 
 def my_array_sorting_method(source)
-  sorted_array = source.sort_by {|a| a.to_s}
-  return sorted_array
+  return source.sort_by {|a| a.to_s}
 end
 
 def my_hash_sorting_method(source)
-  sorted_hash = source.sort_by {|a, b| b}
-  return sorted_hash
+  return source.sort_by {|a, b| b}
 end
 
 # Identify and describe the Ruby method(s) you implemented.
@@ -123,9 +121,6 @@ end
 def my_hash_deletion_method!(hash, name)
   hash.delete_if {|key, value| key == "George"}
 end
-
-puts my_array_deletion_method!(i_want_pets,"a")
-puts my_hash_deletion_method!(my_family_pets_ages, "George")
 
 
 # Identify and describe the Ruby method(s) you implemented.
