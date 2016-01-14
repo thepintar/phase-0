@@ -1,14 +1,17 @@
 #Attr Methods
 
-# I worked on this challenge [by myself, with:]
+# I worked on this challenge by myself.
 
-# I spent [#] hours on this challenge.
+# I spent 1 hours on this challenge.
 
 # Pseudocode
 
-# Input:
-# Output:
+# Input: Nothing.
+# Output: A greeting to the name initialized in the NameData Class
 # Steps:
+# initialize a name variable within the NameData class and make it an attribute reader.
+# initialize a new instance of NameData within the Greetings class.
+# define a method that puts "Hello" followed by the NameData instance's name, followed by "How wonderful to see you today."
 
 class NameData
 	attr_reader :name
