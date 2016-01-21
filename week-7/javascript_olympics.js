@@ -1,8 +1,8 @@
 // JavaScript Olympics
 
-// I paired by myself on this challenge.
+// I paired by with Ian Kinner on this challenge.
 
-// This challenge took me [#] hours.
+// This challenge took us 1 hours.
 
 
 // Warm Up
@@ -18,23 +18,24 @@
 //		  In each iteration, set the win attribute of the object to true
 //		  and then log the phrase given using the objects name and event_type properties
 
-function win(x){
-	for(index=0; index<x.length; index++){
-		x[index].win = true;
-		console.log(x[index].name +" has won the "+ x[index].event_type + "!");
-	}
-};
-
 var athleteArray = [
-	{name: "Sarah Hughes",
-	event_type: "Women's Singles",
-	},
-	{	name: "Calvin Johnson",
-		event_type: "Superbowl",
-	}
-	];
+  {name: "Sarah Hughes",
+  event_type: "Women's Singles",
+  },
+  {name: "Calvin Johnson",
+    event_type: "Superbowl",
+  }
+];
 
-win(athleteArray)
+function arrayFunction(array){
+  array.forEach(function (item) {
+        item.win = function() { console.log(item.name + " has won the " + item.event_type);}
+  })
+}
+
+arrayFunction(athleteArray);
+athleteArray[0].win();
+athleteArray[1].win();
 
 // Jumble your words
 // Input: string
@@ -45,10 +46,10 @@ win(athleteArray)
 // 	3. log the array as a string
 
 function reverseString(string){
-	reversedString = string.split("").reverse().join("");
-	console.log(reversedString);
+  return string.split("").reverse().join("")
 }
-reverseString("This is a string boyee")
+console.log(reverseString("This is a string boyee"))
+
 
 // 2,4,6,8
 
