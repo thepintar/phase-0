@@ -387,12 +387,27 @@ playerAction("map")
 playerAction("right")
 
 
-// Reflection
-//
-//
-//
-//
-//
-//
-//
-//
+/* Reflection
+What was the most difficult part of this challenge?
+The most difficult part of this challenge was deciding on how to implement the torch, and generally keeping track of what
+object properties ought to be adjusted. Early on I decided that I'd be using a really small map template, and therefore I could just store the
+simple text-based map in one long string. I'm glad I made that choice since it made it easy to convert that into an array and then map
+only a portion of of one map onto another depending on the state of the torch object. I'm assuming that later on I could map images to
+the different chosen symbols and upgrade the look of the game pretty easily. Early on I had a little bit of trouble because I began
+coding it as a game that took inputs. I quickly learned that node doesn't support prompt, and while JSFiddle did, I couldn't use console logs
+there. I have a while loop in place for if and when I fully implement this into the DOM.
+
+What did you learn about creating objects and functions that interact with one another?
+Working on this project really solidified the uses of javascript objects. Before, I mostly viewed them as substitute hashes, but now I'm
+seeing how useful they can be in a completely different usage. I didn't set any object properties as functions in this game, but I read
+up more on objects while doing this and feel more confident overall.
+
+Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+I did use .slice and .forEach, but I used those previously in the week. My refactoring focussed mainly on making my code as DRY as possible,
+and I thought up a few ways to consolidate it.
+
+How can you access and manipulate properties of objects?
+Object properties can be accessed and manipulated using a dot, like so: myObject.property accesses the value of "property" withing the object
+myObject. Using that same syntax you can manipulate that property. It looks like this: myObject.property. = value. This updates the value
+of "property" to "value".
+*/
