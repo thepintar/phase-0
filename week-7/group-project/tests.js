@@ -1,7 +1,34 @@
 // Add the finished solution here when you receive it.
-// __________________________________________
-// Tests:  Do not alter code below this line.
 
+
+function sum(array){
+return array.reduce( (prev, curr) => prev + curr );
+}
+
+// As a user I want to enter the number of students of each grade level so I can have a total number of students in the school. I entered the total number of students in the using sum([23,20,14,25,25]) and received a total number of 107 students.
+
+function mean(array){
+  return sum(array)/array.length;
+}
+
+// As a user I want to enter the total number of students and recieve a average number of students per classroom.
+
+function median(array){
+    var sortedArray = array.sort(function(a,b) { //numbers is not a defined variable, should be array
+        return a - b; //a return here exits the function and doesn't give us what we want
+    })
+    if (array.length%2 != 0){
+      return sortedArray[Math.floor(array.length/2)]
+    }
+    else {
+      return mean([sortedArray[Math.floor(array.length/2)-1],sortedArray[Math.floor(array.length/2)]]);
+    }
+}
+
+// As a user I want to add each classes student population and receive an average class size.
+
+
+// Tests:  Do not alter code below this line.
 
 oddLengthArray  = [1, 2, 3, 4, 5, 5, 7]
 evenLengthArray = [4, 4, 5, 5, 6, 6, 6, 7]
