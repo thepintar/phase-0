@@ -11,7 +11,22 @@
 
 // Pseudocode
 /*
-Define an object called player with properties position, torchCount, torch and win.
+Define an object called player with properties position and win.
+Define an object called torch with properties count, lit and life.
+Define a map as a string of characters split into an array.
+Create a playeraction function that takes one of 6 inputs:
+left, right, up, down, map and torch.
+The directional movements change the position of the player based on the map or alerts them that their movement is blocked.
+Map calls a map printing function.
+Torch also calls a map printing function depending on the value of the torch count property.
+Check to see if the hero is located in the same spot as another torch on the ground.
+Check to see if the hero is located at the end of the maze, in which case print the full maze.
+Create a map printing function that checks to see if the torch lit property is true or false.
+If the torch lit is false, the map will print an obfuscated version of itself, only revealing the location of the hero.
+If the torch lit is true, the map prints an obfuscated version but replaces the characters just around the hero with the characters
+from the map.
+
+
 */
 
 // Initial Code
