@@ -72,18 +72,23 @@ function average(array){
 
 
 
-// __________________________________________
+/* __________________________________________
 // Reflect
 
+What did you learn about adding functions to objects?
+I learned that it was a rather simple affair, that all you had to do was put the function definition where you would normally put
+the property value. Using object literal notation its frankly a piece of cake.
+
+How did you iterate over nested arrays in JavaScript?
+We iterated over the arrays using a for loop, setting an iterator "i" within it that allowed us to all up each item at the index as
+it advanced.
+
+Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+For our refactor we used the .reduce() array method, which allows one to take each element of an array and the one prior, comparing them or applying
+a mathematical operator to them. Using this we were able to sum the lot in one line of code.
 
 
-
-
-
-
-
-
-// __________________________________________
+*/ __________________________________________
 // Test Code:  Do not alter code below this line.
 
 
