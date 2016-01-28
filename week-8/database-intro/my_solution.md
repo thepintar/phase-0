@@ -9,7 +9,7 @@ SELECT state_name, region_id FROM states ORDER BY region_id ASC;
 SELECT region_name FROM regions WHERE region_name LIKE '%Central%';
 SELECT regions.region_name, states.state_name FROM regions INNER JOIN states ON regions.id=states.region_id ORDER BY region_id ASC;
 
-![Alt text](/schema.png)
+![Alt text](/week-8/database-intro/schema.png)
 
 ##What are databases for?
 Databases are used for storing large amounts of data and for querying said data or combining said data.
