@@ -40,6 +40,10 @@ document.body.appendChild(release5.content.cloneNode(true));
 
 // Release 6:
 
-What did you learn about the DOM?
+// What did you learn about the DOM?
+// I learned that all of the different elements can be easily manipulated using javascript. This challenge also really helped me to understan
+// why the HTML5 semantic tags are so useful.
 
-What are some useful methods to use to manipulate the DOM?
+// What are some useful methods to use to manipulate the DOM?
+// The whole range of ".getElementBy" methods are incredibly useful to assign the content of certain element to a variable append and 
+// manipulate it. The "appendChild" method is another useful one for when you want to add something to the page that doesn't already exist.
